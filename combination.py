@@ -1,9 +1,9 @@
 #combination function in python
 def RecSubsets(soFar, rest):
-if rest==" ":
+ if rest==" ":
   print(soFar)
 
-else:
+ else:
     RecSubsets(soFar+rest[0],rest[1:])
     RecSubsets(soFar, rest[1:])
 
