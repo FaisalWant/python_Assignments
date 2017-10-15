@@ -7,8 +7,10 @@ def permute(soFar, rest):
       print (soFar)
 
   else:
-      permute(soFar+rest[0],rest[1])
-      permute(soFar, rest[1])
+      for i in range(len(rest))
+       next =soFar+rest[i]
+       remaining=rest[0:i+1] +rest[i+1]
+       permute(next, remaining)
 
 
 
