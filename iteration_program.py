@@ -5,6 +5,6 @@ ans= 0
 iter= x
 while(iter!=0):
   ans+=x
-   iter=iter-1
+  iter=iter-1
 
-print str(x) +'*'+str(x) +'=' +str(ans)
+print (str(x) +'*'+str(x) +'=' +str(ans))
