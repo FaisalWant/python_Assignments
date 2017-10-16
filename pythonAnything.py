@@ -4,14 +4,14 @@ class SimpleProgram:
    self.printHelloWorld()
 
   def printHelloWorld(self):
-     print "HelloWorld/n"
+     print ("HelloWorld\n")
 
 
 
-  if __name__ == "__main__":
-     run =SimpleProgram()
+if __name__ == "__main__" :
+     run = SimpleProgram()
 
      print("Program will execute")
 
-  else:
-      print("This class was imported and won't execute")
+else:
+     print("This class was imported and won't execute")
