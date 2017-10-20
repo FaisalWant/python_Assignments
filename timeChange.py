@@ -32,7 +32,8 @@ print(from_date)
 conv=time.strptime(from_date,"%m %d %Y")
 print(time.strftime("%Y/%m/%d",conv))
 
-
+conv=time.strptime(from_date,"%B %d %Y")
+return(time.strftime("%Y/%m/%d",conv))
 
   #else:
     # list.extend(char)
